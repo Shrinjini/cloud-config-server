@@ -12,6 +12,8 @@ microservice:
     endpoints:
       endpoint:
         uri: http://DOCTOR-SERVICE/getAll/doctor-record
+      endpoint:
+        uri: http://DOCTOR-SERVICE/getAll/doctor-patient-records
   patient-service:
     endpoints:
       endpoint:
